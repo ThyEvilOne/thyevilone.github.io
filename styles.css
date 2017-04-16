@@ -2,7 +2,15 @@ img {
     width: 200px;
 }
 
+h1:hover {
+    color: red;
+}
+
+a:hover {
+    color: green;
+}
+
 body {
     text-align: center;
-    font-family: sans-serif;
+    font-family: comic sans MS;
 }
