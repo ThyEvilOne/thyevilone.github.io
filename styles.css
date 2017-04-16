@@ -6,8 +6,12 @@ h1:hover {
     color: red;
 }
 
+a {
+    color: #00F800;
+}
+
 a:hover {
-    color: green;
+    color: red;
 }
 
 body {
