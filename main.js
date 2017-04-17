@@ -30,7 +30,7 @@ function pushMessageButton(){
 $('#messageInput').keypress(pushMessage);
 $("#send").on("click", pushMessageButton);
 
-//chatData.on("child_added", showMessage);
+chatData.on("child_added", showMessage);
 
 function showMessage(msg) {
         var message = msg.val();
